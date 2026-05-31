@@ -183,7 +183,7 @@ curl -X POST http://localhost:5000/predict \
 json
 {
   "prediction": 1,
-  "prediction_": "default",
+  "prediction_text": "default",
   "probability_default": 0.5112286582743187,
   "probability_no_default": 0.48877134172568126
 }
@@ -309,7 +309,7 @@ json
 json
 {
   "prediction": 1,
-  "prediction_": "default",
+  "prediction_text": "default",
   "probability_default": 0.5112286582743187,
   "probability_no_default": 0.48877134172568126
 }
